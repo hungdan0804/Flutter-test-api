@@ -19,6 +19,7 @@ app.use(bodyParser.json());
 //import Controller
 const RecipesController = require("./Controller/RecipesController");
 
+//
 const swaggerOptions = {
   swaggerDefinition: {
     info: {
@@ -27,7 +28,7 @@ const swaggerOptions = {
       contact: {
         name: "Hung Dan Project",
       },
-      server: ["http://localhost:4000"],
+      server: ["https://flutterapp-test.herokuapp.com/"],
     },
   },
   apis: ["app.js"],
